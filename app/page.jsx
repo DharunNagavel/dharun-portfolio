@@ -63,7 +63,7 @@ const page = () =>
         autoAlpha: 0,
         duration: 0.9,
         ease: 'power2.out',
-        scrollTrigger: { trigger: sec, start: 'top 50%', toggleActions: 'play none none reverse' },
+        scrollTrigger: { trigger: sec, start: 'top 100%', toggleActions: 'play none none reverse' },
         clearProps: 'all'
       });
     });
