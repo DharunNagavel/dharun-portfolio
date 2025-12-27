@@ -86,8 +86,8 @@ const page = () =>
   return (<>
         <section id='one' className='-mt-20 mb-20'>
         <div className='flex flex-wrap flex-col items-center mt-8'>
-          <div>
-            <Image className=' border-yellow-100 border-2 rounded-full p-3' src="/profile.png" alt='image' width={250} height={100}></Image>
+          <div className='border-yellow-300 border-2 rounded-4xl'>
+            <Image className='px-8 pt-1' src="/profile.png" alt='image' width={250} height={250}></Image>
           </div>
           <div className='my-5'>
             <h1 className=' text-4xl text-yellow-300'>Hi, I'm Dharun Nagavel</h1>
